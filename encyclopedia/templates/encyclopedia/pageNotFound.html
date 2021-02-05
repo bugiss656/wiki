@@ -1,0 +1,17 @@
+{% extends 'encyclopedia/layout.html' %}
+
+{% block title %}
+  Encyclopedia - Not found
+{% endblock %}
+
+{% block body %}
+  <h1 class="display-4">HTTP 404:</h1>
+  <hr>
+  <p class="lead">The Page you requested was not found.</p>
+  <p class="lead">
+    Try again or
+    <a href="{% url 'newPage' %}">
+      <button class="button">Create new page</button>
+    </a>
+  </p>
+{% endblock %}

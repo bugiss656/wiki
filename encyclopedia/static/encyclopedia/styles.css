@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+textarea {
+    height: 90vh;
+    width: 80%;
+}
+
+.main {
+    padding: 10px;
+    font-family: 'Noto Sans JP';
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    width: 500px;
+    height: 100vh;
+    padding: 0 30px;
+}
+
+.sidebar-logo {
+  font-family: 'Almendra SC';
+  font-size: 55px;
+  padding: 15px 0;
+  color: #008080;
+}
+
+.small-element {
+  font-family: 'Noto Sans JP';
+  font-size: 18px;
+}
+
+.button {
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 2px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #008080;
+  transition: background-color 0.1s;
+}
+
+.button:hover {
+  background-color: #006666;
+}
+
+.button a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.button a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.search-input, .page-content-input {
+  width: 100%;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 3px 6px;
+  font-family: 'Noto Sans JP';
+  font-size: 15px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  outline: none;
+}
+
+.search-input:hover, .search-input:focus, .page-content-input:hover, .page-content-input:focus {
+  border: 2px solid #008080;
+}
+
+.search-button {
+  padding: 0 8px;
+  border: none;
+  text-decoration: none;
+  border: 2px solid #000000;
+  border-radius: 2px;
+  transition: color 0.1s, border 0.1s;
+}
+
+.search-button:hover, .search-button:active, .search-button:focus {
+  outline: none;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #008080;
+  border: 2px solid #008080;
+}
+
+.sidebar-link {
+  box-sizing: border-box;
+  margin: 10px 0;
+  font-family: 'Noto Sans JP';
+}
+
+.sidebar-link a, .pages-list a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.1s;
+}
+
+.sidebar-link a:hover, .pages-list a:hover  {
+  text-decoration: none;
+  color: #008080;
+}
+
+.pages-list li {
+  margin: 8px 0;
+  font-weight: normal;
+}
+
+.edit-page-form {
+  margin: 35px 0;
+}
